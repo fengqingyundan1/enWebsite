@@ -1,0 +1,180 @@
+/*reset*/
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/
+
+)
+ * http://cssreset.com
+
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+  display: block;
+}
+input{
+  outline: none;
+}
+body {
+  line-height: 1;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* custom */
+a {
+  text-decoration: none;
+  -webkit-backface-visibility: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  height: 5px;
+  background-color: rgba(125, 125, 125, 0.7);
+  -webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  width: 5px;
+  background-color: rgba(125, 125, 125, 0.7);
+  -webkit-border-radius: 6px;
+}
+
+html, body {
+  width: 100%;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/*default*/
+.text-left{
+  text-align: left;
+}
+.text-center{
+  text-align: center;
+}
+.text-right{
+  text-align: right;
+}
+a{
+  text-decoration: none!important;
+  outline-style: none!important;
+  color:#000000!important;
+}
+.no-padding{
+  padding:0!important;
+}
+.margin-top10{
+   margin-top:10px!important;
+ }
+.margin-top20{
+  margin-top:20px!important;
+}
+.margin-top30{
+  margin-top:30px!important;
+}
+.margin-top40{
+  margin-top:40px!important;
+}
+.margin-top50{
+  margin-top:50px!important;
+}
+.margin-top60{
+  margin-top:60px!important;
+}
+.margin-top70{
+  margin-top:70px!important;
+}
+.margin-top80{
+  margin-top:80px!important;
+}
+.margin-bottom10{
+  margin-bottom:10px!important;
+}
+.margin-bottom20{
+  margin-bottom:20px!important;
+}
+.margin-bottom30{
+  margin-bottom:30px!important;
+}
+.margin-bottom40{
+  margin-bottom:40px!important;
+}
+.margin-bottom50{
+  margin-bottom:50px!important;
+}
+.margin-bottom60{
+  margin-bottom:60px!important;
+}
+.margin-bottom70{
+  margin-bottom:70px!important;
+}
+.margin-bottom80{
+  margin-bottom:80px!important;
+}
+.padding-le-right15{
+  padding:0 15px !important;
+}
+.padding-le-right30{
+  padding:0 30px !important;
+}
+.padding-left60{
+  padding-left:60px!important;
+}
+.padding-left30{
+  padding-left:30px!important;
+}
+.padding-right60{
+  padding-right:60px!important;
+}
+body{
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
